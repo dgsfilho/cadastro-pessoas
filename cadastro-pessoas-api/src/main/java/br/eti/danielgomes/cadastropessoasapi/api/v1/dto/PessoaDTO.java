@@ -20,7 +20,7 @@ public class PessoaDTO {
     @NotEmpty
     private String nome;
     private String email;
-//    @NotNull
+    @NotNull
     private LocalDate dataNascimento;
     private String naturalidade;
     private String nacionalidade;
